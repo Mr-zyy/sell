@@ -1,6 +1,7 @@
 var express = require("express")
 var app = express()
 var router = require("./routers/router.js")
+//cors 解决跨域问题
 // app.all('/api/seller',function(req,res,next){
 // 	res.header("Access-Control-Allow-Origin",'*')
 // 	res.header("Access-Control-Allow-Headers", "X-Requested-With");

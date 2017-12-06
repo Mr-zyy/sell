@@ -28,19 +28,23 @@
     							<span class="new">￥{{food.price}}</span><span
     							v-show="food.oldPrice" class="old">￥{{food.oldPrice}}</span>
     						</div>
+                <div class="cartControlWrapper">
+                  <cartControl :food="food"></cartControl>
+                </div>
     					</div>
     				</li>
     			</ul>
     		</li>
     	</ul>
     </div>
-    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice"></shop-cart>
+    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods"></shop-cart>
   </div>
 </template>
 
 <script>
 import BScroll from 'better-scroll'
 import shopCart from './shopcart/shopcart.vue'
+import cartControl from './../controlcart/controlcart.vue'
 const ERR_OK = 0
 export default {
   data () {
@@ -69,7 +73,8 @@ export default {
     this.classMap = ['decrease', 'discount', 'guarantee', 'invoice', 'special']
   },
   components: {
-    shopCart
+    shopCart,
+    cartControl
   },
   methods: {
     _calculateHeight() {
@@ -86,6 +91,7 @@ export default {
         click: true
       })
       this.menuScroll = new BScroll(this.$refs.menuWrapper, {
+        click: true,
         probeType: 3
       })
       this.menuScroll.on('scroll', (pos) => {
@@ -109,6 +115,17 @@ export default {
           return i
         }
       }
+    },
+    selectFoods() {
+      let arr = []
+      this.goodsData.forEach((item) => {
+        item.foods.forEach((food) => {
+          if (food.count){
+            arr.push(food)
+          }
+        })
+      })
+      return arr
     }
   }
 }
@@ -188,6 +205,7 @@ export default {
         img
           border-radius: 2px
       .content
+        position: relative
         flex: 1
         color: rgb(147, 153, 159)
         .name
@@ -218,4 +236,8 @@ export default {
           .old
             text-decoration: line-through
             font-size: 10px
+        .cartControlWrapper
+          position: absolute
+          right: 0px
+          bottom: 0px
 </style>
