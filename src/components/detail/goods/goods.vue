@@ -40,7 +40,7 @@
     		</li>
     	</ul>
     </div>
-    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods" ref="shopcart" @empty="emptySlide" @selectEat="selectSlide"></shop-cart>
+    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods" ref="shopcart" @empty="emptySlide" @selectSlide="selectSlide"></shop-cart>
   </div>
 </template>
 
