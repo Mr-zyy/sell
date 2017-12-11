@@ -32,7 +32,7 @@
     							v-show="food.oldPrice" class="old">￥{{food.oldPrice}}</span>
     						</div>
                 <div class="cartControlWrapper">
-                  <cartControl :food="food" :index="index" @selectIndex="select" @addBall="addBall"></cartControl>
+                  <cartControl :food="food" @selectIndex="select" @addBall="addBall"></cartControl>
                 </div>
     					</div>
     				</li>
@@ -40,7 +40,7 @@
     		</li>
     	</ul>
     </div>
-    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods" ref="shopcart" @empty="emptySlide" @selectSlide="selectSlide"></shop-cart>
+    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods" ref="shopcart" @empty="emptySlide" @light="lightSlide"></shop-cart>
   </div>
 </template>
 
@@ -109,15 +109,18 @@ export default {
       let el = this.$refs.menuScroll[index]
       this.menuScroll.scrollToElement(el, 300)
     },
-    select(index) {
-      this.index.push(index)
-      let count = 0
-      this.goodsData[index].foods.forEach((food) => {
-        if (food.count){
-          count += food.count
-        }
+    select() {
+      this.goodsData.forEach((item, index) => {
+         let count = 0
+         item.foods.forEach((food) => {
+           if (food.count){
+             count += food.count
+           }
+         })
+         if (count >= 0){
+           this.$set(this.goodsData[index], 'count', count)
+         }
       })
-      this.$set(this.goodsData[index], 'count', count)
     },
     addBall(el) {
       this.$nextTick(() => {
@@ -131,10 +134,8 @@ export default {
         }
       })
     },
-    selectSlide() {
-      this.index.forEach((item, index) => {
-        this.select(index)
-      })
+    lightSlide() {
+       this.select()
     }
   },
   computed: {

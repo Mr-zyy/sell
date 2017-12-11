@@ -49,34 +49,31 @@ import Vue from 'vue'
 		props: {
 			food: {
 				type: Object
-			},
-			index: {
-				type: Number
 			}
 		},
 		created() {
 		},
 		methods: {
 			addCart(event) {
-              if (!event._constructed){
-                return
-              }
-              if (!this.food.count){
-                Vue.set(this.food, 'count', 1)
-              } else {
-                this.food.count++
-              }
-              this.$emit('selectIndex', this.index)
-              this.$emit('addBall', event.target)
+        if (!event._constructed){
+          return
+        }
+        if (!this.food.count){
+          Vue.set(this.food, 'count', 1)
+        } else {
+          this.food.count++
+        }
+        this.$emit('selectIndex')
+        this.$emit('addBall', event.target)
 			},
 			decCart() {
 				if (!event._constructed){
-                  return
+          return
 				}
 				if (this.food.count){
-                  this.food.count--
+          this.food.count--
 				}
-              this.$emit('selectIndex', this.index)
+        this.$emit('selectIndex')
 			}
 		}
 	}

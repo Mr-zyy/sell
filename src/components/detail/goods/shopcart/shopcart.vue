@@ -39,7 +39,7 @@
               <div class="name">{{food.name}}</div>
               <div class="price">￥ <span class="totalPrice">{{food.count*food.price}}</span></div>
               <div class="controlcart-wrapper">
-                <cartControl @selectIndex="selectFood" @addBall="dropBall" :food="food"></cartControl>
+                <cartControl @selectIndex="selectEat" @addBall="dropBall" :food="food"></cartControl>
               </div>
             </li>
           </ul>
@@ -187,11 +187,8 @@ import BScroll from 'better-scroll'
         })
         this.$emit('empty')
       },
-      selectFood() {
-        this.$emit('selectEat')
-      },
-      touch(e) {
-        console.log(e)
+      selectEat(index) {
+        this.$emit('light')
       }
     },
     components: {

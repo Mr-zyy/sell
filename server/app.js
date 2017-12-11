@@ -3,6 +3,7 @@ var app = express()
 var router = require("./routers/router.js")
 //cors 解决跨域问题
 // app.all('/api/seller',function(req,res,next){
+// 	console.log(1)
 // 	res.header("Access-Control-Allow-Origin",'*')
 // 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 // 	res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
