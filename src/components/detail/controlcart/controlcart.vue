@@ -49,7 +49,12 @@ import Vue from 'vue'
 		props: {
 			food: {
 				type: Object
+			},
+			index: {
+				type: Number
 			}
+		},
+		created() {
 		},
 		methods: {
 			addCart(event) {
@@ -61,6 +66,8 @@ import Vue from 'vue'
               } else {
                 this.food.count++
               }
+              this.$emit('selectIndex', this.index)
+              this.$emit('addBall', event.target)
 			},
 			decCart() {
 				if (!event._constructed){
@@ -69,6 +76,7 @@ import Vue from 'vue'
 				if (this.food.count){
                   this.food.count--
 				}
+              this.$emit('selectIndex', this.index)
 			}
 		}
 	}

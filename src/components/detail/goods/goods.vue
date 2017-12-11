@@ -6,12 +6,15 @@
     			<span class="text border-1px">
     				<span v-show="item.type>0" class="icon" :class="[classMap[item.type]]"></span>{{item.name}}
     			</span>
+          <span class="num" v-show="item.count>0">
+            {{item.count}}
+          </span>
     		</li>
     	</ul>
     </div>
     <div class="menuWrapper" ref="menuWrapper">
     	<ul>
-    		<li v-for="item in goodsData" class="menu-item" ref="menuScroll">
+    		<li v-for="(item, index) in goodsData" class="menu-item" ref="menuScroll">
     			<h1 class="title">{{item.name}}</h1>
     			<ul>
     				<li v-for="food in item.foods" class="food-item border-1px">
@@ -29,7 +32,7 @@
     							v-show="food.oldPrice" class="old">￥{{food.oldPrice}}</span>
     						</div>
                 <div class="cartControlWrapper">
-                  <cartControl :food="food"></cartControl>
+                  <cartControl :food="food" :index="index" @selectIndex="select" @addBall="addBall"></cartControl>
                 </div>
     					</div>
     				</li>
@@ -37,7 +40,7 @@
     		</li>
     	</ul>
     </div>
-    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods"></shop-cart>
+    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods" ref="shopcart" @empty="emptySlide" @selectEat="selectSlide"></shop-cart>
   </div>
 </template>
 
@@ -51,7 +54,8 @@ export default {
     return {
       goodsData: [],
       menuHeight: [],
-      scrollY: 0
+      scrollY: 0,
+      index: []
     }
   },
   props: {
@@ -104,6 +108,33 @@ export default {
       }
       let el = this.$refs.menuScroll[index]
       this.menuScroll.scrollToElement(el, 300)
+    },
+    select(index) {
+      this.index.push(index)
+      let count = 0
+      this.goodsData[index].foods.forEach((food) => {
+        if (food.count){
+          count += food.count
+        }
+      })
+      this.$set(this.goodsData[index], 'count', count)
+    },
+    addBall(el) {
+      this.$nextTick(() => {
+        this.$refs.shopcart.dropBall(el)
+      })
+    },
+    emptySlide() {
+      this.goodsData.forEach((item) => {
+        if (item.count){
+          item.count = 0
+        }
+      })
+    },
+    selectSlide() {
+      this.index.forEach((item, index) => {
+        this.select(index)
+      })
     }
   },
   computed: {
@@ -147,11 +178,11 @@ export default {
     background: #f3f5f7
     .item-list
       display: table
+      position: relative
       width: 56px
       height: 54px
       padding: 0 12px
       &.current
-        position: relative
         top: -1px
         z-index: 10
         background-color: #FFF
@@ -183,6 +214,19 @@ export default {
         font-size: 12px
         line-height: 14px
         border-1px(rgba(7,17,27,0.1))
+      .num
+        display: inline-block
+        position: absolute
+        top: 2px
+        right: 5px
+        width: 12px
+        height: 12px
+        line-height: 12px
+        font-size: 10px
+        text-align: center
+        border-radius: 50%
+        color: #fff
+        background-color: rgb(240, 20, 20)
   .menuWrapper
     flex: 1
     .title
