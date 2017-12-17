@@ -46,6 +46,9 @@
         </div>
       </div>
     </transition>
+    <transition name="fade">
+      <div class="mask" v-show="hideMask"></div>
+    </transition>
   </div>
 </template>
 <script>
@@ -133,6 +136,13 @@ import BScroll from 'better-scroll'
         }
         let show = !this.fold
         return show
+      },
+      hideMask() {
+        if (this.listShow){
+          return true
+        } else {
+          return false
+        }
       }
     },
     methods: {
@@ -361,4 +371,16 @@ import BScroll from 'better-scroll'
             position: absolute
             right: 0
             top: 6px
+  .mask
+    position: fixed
+    top: 0
+    left: 0
+    z-index: -2
+    width: 100%
+    height: 100%
+    background: rgba(7, 17, 27, 0.6)
+    &.fade-enter-active,&.fade-leave-active
+      transition: all 0.4s linear
+    &.fade-enter,&.fade-leave-to
+      background: rgba(7, 17, 27, 0)
 </style>

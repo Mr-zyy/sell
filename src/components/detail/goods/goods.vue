@@ -18,7 +18,7 @@
     			<h1 class="title">{{item.name}}</h1>
     			<ul>
     				<li v-for="food in item.foods" class="food-item border-1px">
-    					<div class="icon">
+    					<div class="icon" @click="showDetailFood(food,$event)">
     						<img width="57" height="57" :src="food.icon" alt="">
     					</div>
     					<div class="content">
@@ -32,7 +32,7 @@
     							v-show="food.oldPrice" class="old">￥{{food.oldPrice}}</span>
     						</div>
                 <div class="cartControlWrapper">
-                  <cartControl :food="food" @selectIndex="select" @addBall="addBall"></cartControl>
+                  <cartControl :food="food" @selectIndex="showSlideCount" @addBall="addBall"></cartControl>
                 </div>
     					</div>
     				</li>
@@ -40,7 +40,8 @@
     		</li>
     	</ul>
     </div>
-    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods" ref="shopcart" @empty="emptySlide" @light="lightSlide"></shop-cart>
+    <shop-cart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice" :selectFoods="selectFoods" ref="shopcart" @empty="emptySlide" @light="showSlideCount"></shop-cart>
+    <food :food="selectedFood" @ballMove="addBall" @showBall="addBall" @slideCount="showSlideCount" @showSlide="showSlideCount" ref="food"></food>
   </div>
 </template>
 
@@ -48,6 +49,7 @@
 import BScroll from 'better-scroll'
 import shopCart from './shopcart/shopcart.vue'
 import cartControl from './../controlcart/controlcart.vue'
+import food from './food/food.vue'
 const ERR_OK = 0
 export default {
   data () {
@@ -55,7 +57,8 @@ export default {
       goodsData: [],
       menuHeight: [],
       scrollY: 0,
-      index: []
+      index: [],
+      selectedFood: {}
     }
   },
   props: {
@@ -78,7 +81,8 @@ export default {
   },
   components: {
     shopCart,
-    cartControl
+    cartControl,
+    food
   },
   methods: {
     _calculateHeight() {
@@ -109,7 +113,7 @@ export default {
       let el = this.$refs.menuScroll[index]
       this.menuScroll.scrollToElement(el, 300)
     },
-    select() {
+    showSlideCount() {
       this.goodsData.forEach((item, index) => {
          let count = 0
          item.foods.forEach((food) => {
@@ -134,8 +138,10 @@ export default {
         }
       })
     },
-    lightSlide() {
-       this.select()
+    showDetailFood(food, event) {
+       this.selectedFood = food
+       // bug
+       this.$refs.food.show()
     }
   },
   computed: {

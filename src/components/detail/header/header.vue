@@ -107,7 +107,8 @@ export default {
   },
   props: {
     seller: {
-      type: Object
+      type:
+      Object
     }
   },
   components: {
@@ -245,7 +246,8 @@ export default {
         transition: all 0.5s
       &.fade-enter,&.fade-leave-to
         opacity: 0
-        background: rgba(7,17,27,0)
+        background:
+        rgba(7,17,27,0)
       .detail-wrapper
         width: 100%
         min-height: 100%
