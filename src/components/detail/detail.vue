@@ -1,18 +1,20 @@
 <template>
-  <div id="detail">
+  <div class="detail">
     <v-header :seller="sellerData"></v-header>
     <div class="tab border-1px">
       <div class="tab-item">
-         <router-link to="/detail/goods">商品</router-link>
+         <router-link :to="goods">商品</router-link>
       </div>
       <div class="tab-item">
-         <router-link to="/detail/ratings">评价</router-link>
+         <router-link :to="ratings">评价</router-link>
       </div>
       <div class="tab-item">
-         <router-link to="/detail/sellers">商家</router-link>
+         <router-link :to="sellers">商家</router-link>
       </div>
     </div>
-    <router-view :seller="sellerData"></router-view>
+    <keep-alive>
+      <router-view :seller="sellerData" :id="$route.params.id"></router-view>
+    </keep-alive>
   </div>
 </template>
 
@@ -22,19 +24,26 @@ const ERR_OK = 0
 export default {
   data(){
     return {
-      sellerData: {},
-      ratingsData: {}
+      sellerData: {
+        // id: this.$route.params.id
+      },
+      ratingsData: {},
+      goods: `/detail/${this.$route.params.id}/goods`,
+      ratings: `/detail/${this.$route.params.id}/ratings`,
+      sellers: `/detail/${this.$route.params.id}/sellers`
     }
   },
   components: {
     'v-header': vHeader
   },
   created(){
-    this.$http.get('/api/seller').then(function(result){
+    let id = this.$route.params.id
+    this.$http.get('/api/seller?id=' + id).then(function(result){
       let response = result.data
       if (response.errno === ERR_OK){
-        this.sellerData = response.data[0]
-        console.log(this.sellerData)
+        let data = response.data
+        this.sellerData = data
+        // console.log(this.sellerData)
       }
     })
     //  this.$http.get('/api/ratings').then(function(result){
@@ -45,8 +54,12 @@ export default {
 }
 </script>
   
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 @import "./../../common/stylus/mixin.styl"
+.detail
+  position: fixed
+  width: 100%
+  height: 100%
   .tab
     display: flex
     width: 100%

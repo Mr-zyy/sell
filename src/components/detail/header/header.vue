@@ -23,6 +23,9 @@
         <span class="count">{{supportsLength}}个</span>
         <i class="icon-keyboard_arrow_right"></i>
       </div>
+      <router-link to="/">
+        <span class="icon-undo2"></span>
+      </router-link>
   	</div>
   	<div class="bulletin-wrapper">
       <span class="bulletin-title"></span><span class="bulletin-text">{{seller.bulletin}}</span>
@@ -122,7 +125,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 @import "./../../../common/stylus/mixin.styl"
   .header
     position: relative
@@ -200,6 +203,12 @@ export default {
           line-height: 24px
           margin-left: 2px
           font-size: 10px
+      .icon-undo2
+        position: absolute
+        top: 0px
+        left: 0px
+        font-size: 20px
+        color: rgb(147, 153, 159)
     .bulletin-wrapper
       position: relative
       height: 28px
@@ -246,8 +255,7 @@ export default {
         transition: all 0.5s
       &.fade-enter,&.fade-leave-to
         opacity: 0
-        background:
-        rgba(7,17,27,0)
+        background: rgba(7,17,27,0)
       .detail-wrapper
         width: 100%
         min-height: 100%

@@ -4,16 +4,17 @@ import Detail from '@/components/detail/detail'
 import Goods from '@/components/detail/goods/goods'
 import Ratings from '@/components/detail/ratings/ratings'
 import Sellers from '@/components/detail/sellers/sellers'
+import homePage from '@/components/main/homePage'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/detail', redirect: '/detail/goods'
+      path: '/detail/:id', redirect: '/detail/:id/goods'
     },
     {
-      path: '/detail',
+      path: '/detail/:id',
       component: Detail,
       children: [
         {
@@ -29,6 +30,10 @@ export default new Router({
           component: Sellers
         }
       ]
+    },
+    {
+      path: '/',
+      component: homePage
     }
   ]
 })

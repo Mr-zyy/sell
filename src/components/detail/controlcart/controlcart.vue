@@ -9,7 +9,7 @@
 		<div class="increase icon-add_circle" @click="addCart"></div>
 	</div>
 </template>
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 .controlcart
   font-size: 0
   .decrerase

@@ -12,5 +12,7 @@ var router = require("./routers/router.js")
 app.get('/api/seller',router.showSeller);
 app.get('/api/goods',router.showAllGoods);
 app.get('/api/ratings',router.showRatings);
+app.get('/api/search', router.searchSeller)
+app.get('/api/allSeller', router.findAllSellers)
 
 app.listen(8088)

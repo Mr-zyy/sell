@@ -217,7 +217,7 @@ import BScroll from 'better-scroll'
     }
   }
 </script>
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 @import './../../../../common/stylus/mixin' 
 .shopcart
   position: fixed
@@ -287,9 +287,13 @@ import BScroll from 'better-scroll'
         font-size: 10px
         font-weight: 700
         color: rgba(255, 255, 255, 0.4)
+        @media only screen and (max-width: 320px)
+          font-weight: 200
     .content-right
       flex: 0 0 105px
       height: 100%
+      @media only screen and  (max-width: 320px)
+        flex: 0 0 85px
       .pay
         font-size: 12px
         font-weight: 700

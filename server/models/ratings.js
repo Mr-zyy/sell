@@ -30,9 +30,9 @@ var ratingsSchema = new mongoose.Schema({
 })
 
 ratingsSchema.statics.findRatings = function(callback) {
-    this.model('rating').find({}, callback);
+    this.model('ratings').find({}, callback);
 };
 //类是基于schema创建的。
-var ratingsModel = db.model('rating', ratingsSchema);
+var ratingsModel = db.model('ratings', ratingsSchema);
 //向外暴露
 module.exports = ratingsModel;

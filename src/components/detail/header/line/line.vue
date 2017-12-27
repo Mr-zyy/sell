@@ -14,7 +14,7 @@
     }
   }
 </script>
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 .vLine
   display: flex
   width: 80%

@@ -37,8 +37,8 @@
 				  	<ul>
 				  		<li v-for="(item, index) in food.ratings" >
 				  			<transition name="fade">
-				  				<div class="list border-1px" v-show="(showContent === item.rateType || showContent === 2)&&(showOnlyContent || item.text)">
-				  					<div class="date"><span class="time">{{date[index]}}</span>
+				  				<div class="list border-1px" v-show="(showContent === item.rateType || showContent === 2)&&(!onlyContent || item.text)">
+				  					<div class="date"><span class="time">{{item.rateTime | formDate}}</span>
 				  						<span class="user"><span class="username">{{item.username}}</span><img :src="item.avatar"></span></div>
 				  					<div class="text"><span :class="selectIcon[index]"></span>{{text[index]}}</div>
 				  				</div>
@@ -56,6 +56,7 @@
 import controlcart from './../../controlcart/controlcart.vue'
 import split from './../split/split.vue'
 import assess from './../../assess/assess.vue'
+import {formDate} from './../../../../common/js/formDate.js'
 import BScroll from 'better-scroll'
 const POSITIVE = 0
 const NEGATIVE = 1
@@ -70,15 +71,17 @@ const ALL = 2
 					negative: '吐槽'
 				},
 				selectType: ALL,
-				onlyContent: true,
 				showContent: ALL,
-				showOnlyContent: false
+				onlyContent: true
 			}
 		},
 		props: {
 			food: {
 				type: Object
 			}
+		},
+		filters: {
+			formDate
 		},
 		methods: {
 			show() {
@@ -109,12 +112,7 @@ const ALL = 2
 			},
 			toggleSonShow() {
         this.onlyContent = !this.onlyContent
-        if (this.onlyContent) {
-          this.showOnlyContent = false
-        } else {
-          this.showOnlyContent = true
-        }
-			},
+      },
 			toggleSonType(type) {
 				this.selectType = type
 				this.showContent = type
@@ -128,20 +126,6 @@ const ALL = 2
 		created() {
 		},
 		computed: {
-			date() {
-				let arr = []
-				this.food.ratings.forEach((item, index) => {
-					let date = new Date(item.rateTime)
-					let yy = date.getFullYear()
-					let mm = (date.getMonth() + 1)
-					let dd = date.getDate()
-					let h = date.getHours()
-					let m = date.getMinutes()
-					let time = `${yy}-${mm}-${dd} ${h}:${m}`
-					arr.push(time)
-				})
-				return arr
-			},
 			selectIcon() {
 				let arr = []
 				this.food.ratings.forEach((item) => {
@@ -175,7 +159,7 @@ const ALL = 2
 		}
 	}
 </script>
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 @import './../../../../common/stylus/mixin.styl'
 .food-list
   position: fixed
@@ -184,6 +168,7 @@ const ALL = 2
   bottom: 46px
   width: 100%
   z-index: 9
+  overflow: hidden
   background-color: #fff
   transform: translate3d(0, 0, 0)
   &.slide-enter-active,&.slide-leave-active

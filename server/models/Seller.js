@@ -3,6 +3,9 @@ var db = require ('./db.js')
 
 //创建了一个schema结构。
 var sellerSchema = new mongoose.Schema({
+	id: {
+		type: Number
+	},
 	name: {
 		type: String
 	},
@@ -53,10 +56,22 @@ var sellerSchema = new mongoose.Schema({
 	}
 })
 
-sellerSchema.statics.findSeller = function(name, callback) {
-    this.model('seller').find({}, callback);
+sellerSchema.statics.findSeller = function(value, callback) {
+    this.model('sellers').findOne({"id": value}, callback);
 };
+// sellerSchema.methods.addId = function() {
+// 	console.log(this.id)
+// }
+sellerSchema.statics.searchSellers = function(value, callback) {
+	this.model('sellers').find({"name": value}, callback)
+}
+sellerSchema.statics.findAllSeller = function(callback) {
+	this.model('sellers').find({}, callback)
+}
 //类是基于schema创建的。
-var sellerModel = db.model('seller', sellerSchema);
+var sellerModel = db.model('sellers', sellerSchema);
+// sellerModel.findOne({}, function(err,data) {
+// 	data.addId()
+// })
 //向外暴露
 module.exports = sellerModel;

@@ -64,10 +64,13 @@ export default {
   props: {
     seller: {
       type: Object
+    },
+    id: {
+      type: String
     }
   },
   created() {
-    this.$http.get('/api/goods').then(function(result){
+    this.$http.get('/api/goods?id=' + this.id).then(function(result){
       let res = result.data
       if (res.errno === ERR_OK){
         this.goodsData = res.data
@@ -78,6 +81,8 @@ export default {
       }
     })
     this.classMap = ['decrease', 'discount', 'guarantee', 'invoice', 'special']
+  },
+  mounted() {
   },
   components: {
     shopCart,
@@ -140,7 +145,6 @@ export default {
     },
     showDetailFood(food, event) {
        this.selectedFood = food
-       // bug
        this.$refs.food.show()
     }
   },
@@ -170,7 +174,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 @import '../../../common/stylus/mixin'
 .goods
   display: flex

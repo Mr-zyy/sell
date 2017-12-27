@@ -1,6 +1,6 @@
 <template>
 	<div class="star" :class="starType">
-		<span v-for="itemClass in itemClasses" :class="itemClass" class="star-item"></span>
+		<span v-for="(itemClass, index) in itemClasses" :class="itemClass" class="star-item" :key="index"></span>
 	</div>
 </template>
 <script>
@@ -17,8 +17,9 @@ export default {
       type: Number
     }
   },
-  computed: {starType() {
-   return 'star' + '-' + this.size
+  computed: {
+   starType() {
+     return 'star' + '-' + this.size
    },
    itemClasses() {
       let result = []
@@ -39,7 +40,7 @@ export default {
   }
 }
 </script>
-<style  lang="stylus" rel="stylesheet/stylus">
+<style  lang="stylus" rel="stylesheet/stylus" scoped>
 @import '../../../common/stylus/mixin'
 .star
   font-size: 0
