@@ -3,7 +3,14 @@
 		<v-header></v-header>
 		<div class="homeWrapper" ref="homeWrapper">
 			<div class="homeContent">
-				<slide-show :slideImgArray="slideImgArray" :invTime="3000"></slide-show>
+				<split></split>
+				<better-slide>
+					<div class="slideItem" v-for="item in slideImgArray">
+						<a href="">
+							<img :src="item" alt="">
+						</a>
+					</div>
+				</better-slide>
 				<split></split>
 				<h2 class="title">推荐商家</h2>
 			  <seller-list :sellerData="allSeller"></seller-list>
@@ -14,7 +21,7 @@
 <script>
 import vHeader from './header/header.vue'
 import sellerList from './../main/sellerList/sellerList.vue'
-import slideShow from './slide/slide.vue'
+import betterSlide from './slide/betterSlide.vue'
 import split from './../detail/goods/split/split.vue'
 import BScroll from 'better-scroll'
 const OK = 0
@@ -28,7 +35,7 @@ export default {
 	components: {
 		'v-header': vHeader,
 		sellerList,
-		slideShow,
+		betterSlide,
 		split
 	},
 	created() {

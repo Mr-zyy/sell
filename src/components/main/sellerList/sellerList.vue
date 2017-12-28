@@ -2,7 +2,7 @@
 	<div class="sellerWrapper">
 		<ul class="sellerList">
 			<li class="list border-1px" v-for="(seller, index) in sellerData">
-				<router-link :to="path">
+				<router-link :to="`/detail/${seller.id}`">
 					<div class="avatar" @click="link(index, $event)">
 						<img width="57" height="57" :src="seller.avatar" alt="">
 					</div>
@@ -74,16 +74,13 @@ export default {
 			})
 			// 手动重绘页面
 			this.isShowItem = !this.isShowItem
-		},
-		link(index, event) {
-			let id = this.sellerData[index].id
-			this.path = `/detail/${id}`
 		}
 	},
 	computed: {
 	},
 	created() {
 		this.classMap = ['decrease', 'discount', 'guarantee', 'invoice', 'special']
+		console.log(this.sellerData)
 	},
 	watch: {
 		sellerData: function() {

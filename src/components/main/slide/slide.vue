@@ -63,7 +63,6 @@ export default {
   position: relative
   width: 100%
   height: 100px
-  perspective:1000
   .slideImg
     transform-style: preserve-3d
     height: 100%
@@ -73,11 +72,11 @@ export default {
       width: 100%
       height: 100px
     .slide-trans-enter-active
-      transition: all 1s
+      transition: all 1s linear
     .slide-trans-enter
       transform: translate3d(100%, 0, 0)
     .slide-trans-old-leave-active
-      transition: all 1s
+      transition: all 1s linear
     .slide-trans-old-leave-to
       transform: translate3d(-100%, 0, 0)
 </style>
