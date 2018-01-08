@@ -72,15 +72,17 @@ export default {
 					this.isShowItemArray[index][index1] = !this.isShowItemArray[index][index1]
 				}
 			})
+			this.showIconUpArray = [...this.showIconUpArray]
+			this.showIconDownArray = [...this.showIconDownArray]
+			this.isShowItemArray = [...this.isShowItemArray]
 			// 手动重绘页面
-			this.isShowItem = !this.isShowItem
+			// this.isShowItem = !this.isShowItem
 		}
 	},
 	computed: {
 	},
 	created() {
 		this.classMap = ['decrease', 'discount', 'guarantee', 'invoice', 'special']
-		console.log(this.sellerData)
 	},
 	watch: {
 		sellerData: function() {
