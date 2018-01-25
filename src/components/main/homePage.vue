@@ -14,6 +14,10 @@
 				<split></split>
 				<h2 class="title">推荐商家</h2>
 			  <seller-list :sellerData="allSeller"></seller-list>
+			  <div class="load-more" v-if="hasMore" ref="loadMore">
+			  	<span v-if="isLoading">加载中...</span>
+			  	<span v-else @click="loadMoreData">加载更多</span>
+			  </div>
 			</div>
 		</div>
 	</div>
@@ -29,7 +33,10 @@ export default {
 	data() {
 		return {
 			allSeller: [],
-			slideImgArray: []
+			slideImgArray: [],
+			hasMore: false,
+			page: 1,
+			isLoading: false
 		}
 	},
 	components: {
@@ -39,24 +46,59 @@ export default {
 		split
 	},
 	created() {
-		this.$http.get('/api/allSeller').then((result) => {
-			let sellers = result.data
-			if (sellers.errno === OK){
-				this.allSeller = sellers.data
-			}
-		})
+		this.loadFirstdata()
 		this.slideImgArray = ['/static/imgs/01/IMG_0857.jpg', '/static/imgs/01/IMG_0858.jpg', '/static/imgs/01/IMG_0868.jpg', '/static/imgs/01/IMG_0870.jpg', '/static/imgs/01/IMG_0874.jpg']
+	},
+	methods: {
+		// 获取首屏数据
+		loadFirstdata() {
+			this.$http.get('/api/allSeller?page=0').then((result) => {
+				let sellers = result.data
+				this.handleResult(sellers)
+			})
+		},
+		// 获取更多数据
+		loadMoreData() {
+			// 记录状态 加载中
+			this.isLoading = true
+
+			this.$http.get('/api/allSeller?page=' + this.page).then((result) => {
+				let sellers = result.data
+				this.handleResult(sellers)
+				this.page = this.page + 1
+			})
+			// 恢复状态
+			this.isLoading = false
+		},
+		// 处理数据
+		handleResult(result) {
+			if (result.errno === OK){
+				this.allSeller = [...this.allSeller, ...result.data]
+				this.hasMore = result.hasMore
+			}
+		}
 	},
 	watch: {
 		allSeller: function() {
 			this.$nextTick(() => {
 				if (!this.scroll) {
 					this.scroll = new BScroll(this.$refs.homeWrapper, {
-						click: true
+						click: true,
+						probeType: 3
 					})
 				} else {
 					this.scroll.refresh()
 				}
+				this.scroll.on('scrollEnd', () => {
+					let loadMore = this.$refs.loadMore
+					if (loadMore) {
+						let loadMoreTop = loadMore.getBoundingClientRect().top
+						let screenHeight = window.screen.height
+						if (loadMoreTop < screenHeight) {
+							this.loadMoreData()
+						}
+					}
+				})
 			})
 		}
 	}
@@ -81,4 +123,10 @@ export default {
         font-size: 15px
         color: rgb(7, 17, 27)
         border-bottom: 1px solid rgba(7, 17, 27, 0.2)
+      .load-more
+        padding: 10px 0;
+        text-align: center;
+        font-size: 18px;
+        color: #666;
+        background-color: #fff;
 </style>

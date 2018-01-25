@@ -3,7 +3,7 @@
 		<ul class="sellerList">
 			<li class="list border-1px" v-for="(seller, index) in sellerData">
 				<router-link :to="`/detail/${seller.id}`">
-					<div class="avatar" @click="link(index, $event)">
+					<div class="avatar">
 						<img width="57" height="57" :src="seller.avatar" alt="">
 					</div>
 				</router-link>
@@ -40,7 +40,7 @@
 				</div>
 			</li>
 		</ul>
-		<div class="show" v-show="isShowItem"></div> <!-- 存在的意义就是通过它的显示隐藏来重绘页面 -->
+		<!-- <div class="show" v-show="isShowItem"></div>  存在的意义就是通过它的显示隐藏来重绘页面 -->
 	</div>
 </template>
 <script>

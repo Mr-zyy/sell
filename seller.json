@@ -1,500 +1,1518 @@
-{ 
-  "id": 0,
-  "name": "粥品香坊（回龙观）",
-  "description": "蜂鸟专送",
-  "deliveryTime": 38,
-  "score": 4.2,
-  "serviceScore": 4.1,
-  "foodScore": 4.3,
-  "rankRate": 69.2,
-  "minPrice": 20,
-  "deliveryPrice": 4,
-  "ratingCount": 24,
-  "sellCount": 90,
-  "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满28减5"
+{
+  "hasMore": true,
+  "page": 0,
+  "data": [
+    { 
+      "id": 0,
+      "name": "粥品香坊（回龙观）",
+      "description": "蜂鸟专送",
+      "deliveryTime": 38,
+      "score": 4.2,
+      "serviceScore": 4.1,
+      "foodScore": 4.3,
+      "rankRate": 69.2,
+      "minPrice": 20,
+      "deliveryPrice": 4,
+      "ratingCount": 24,
+      "sellCount": 90,
+      "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满28减5"
+        },
+        {
+          "type": 1,
+          "description": "VC无限橙果汁全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg",
+      "pics": [
+        "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
+        "营业时间:10:00-20:30"
+      ]
     },
-    {
-      "type": 1,
-      "description": "VC无限橙果汁全场8折"
+    { 
+      "id": 1,
+      "name": "一粥七天",
+      "description": "蜂鸟专送",
+      "deliveryTime": 30,
+      "score": 4.6,
+      "serviceScore": 4.5,
+      "foodScore": 4.4,
+      "rankRate": 72.4,
+      "minPrice": 15,
+      "deliveryPrice": 3,
+      "ratingCount": 147,
+      "sellCount": 906,
+      "bulletin": "亲你还在为吃不到可口的早餐发愁吗？一粥七天现在每天早上七点开始营业啦",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满30减10"
+        },
+        {
+          "type": 1,
+          "description": "VC无限橙果汁全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/01/avatar.png",
+      "pics": [
+        "/static/imgs/01/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市华庄街道怡园路4-5号",
+        "营业时间:07:00-24:00"
+      ]
     },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
+    { 
+      "id": 2,
+      "name": "满朝佰家粥铺",
+      "description": "蜂鸟专送",
+      "deliveryTime": 35,
+      "score": 4.7,
+      "serviceScore": 4.7,
+      "foodScore": 4.7,
+      "rankRate": 78.2,
+      "minPrice": 15,
+      "deliveryPrice": 2.5,
+      "ratingCount": 220,
+      "sellCount": 361,
+      "bulletin": "本店采用大米，香米，糯米，精心熬制一小时多，每一款都是现做，保证了他的口感，也增加了他的香味",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满30减10"
+        },
+        {
+          "type": 1,
+          "description": "各色美味奶茶全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/02/avatar.jpg",
+      "pics": [
+        "/static/imgs/02/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新吴区新安中心街36号",
+        "营业时间:07:00-20:50"
+      ]
     },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
+    { 
+      "id": 3,
+      "name": "正德兴",
+      "description": "蜂鸟专送",
+      "deliveryTime": 48,
+      "score": 4.8,
+      "serviceScore": 4.9,
+      "foodScore": 4.8,
+      "rankRate": 91.5,
+      "minPrice": 20,
+      "deliveryPrice": 10.5,
+      "ratingCount": 50,
+      "sellCount": 63,
+      "bulletin": "无锡名点•百年传承•古法手作”正德兴品牌连锁欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色套餐全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/03/avatar.jpg",
+      "pics": [
+        "/static/imgs/03/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡新吴区新港公寓11-29门面房",
+        "营业时间:10:00-13:55 / 16:30-20:00"
+      ]
     },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
+    { 
+      "id": 4,
+      "name": "爬山虎主题餐厅",
+      "description": "蜂鸟专送",
+      "deliveryTime": 23,
+      "score": 4.4,
+      "serviceScore": 4.4,
+      "foodScore": 4.3,
+      "rankRate": 59.1,
+      "minPrice": 20,
+      "deliveryPrice": 2.5,
+      "ratingCount": 239,
+      "sellCount": 819,
+      "bulletin": "爱健康、爱运动、爱美食——这就是爬山虎 爬行在味蕾的好时光！爬山虎主题餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色无锡名点全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/04/avatar.png",
+      "pics": [
+        "/static/imgs/04/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市和风路19号无锡协信中心2号楼5-6号、5-7号单元",
+        "营业时间:10:00-14:30 / 16:30-19:00"
+      ]
+    },
+    { 
+      "id": 5,
+      "name": "谷香谷道",
+      "description": "蜂鸟专送",
+      "deliveryTime": 30,
+      "score": 4.7,
+      "serviceScore": 4.8,
+      "foodScore": 4.6,
+      "rankRate": 67.3,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 84,
+      "sellCount": 217,
+      "bulletin": "谷稻谷道所有米饭均为五常大米瓦锅单份现煲！谷香谷道餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色粥品全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/05/avatar.png",
+      "pics": [
+        "/static/imgs/05/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新吴区震泽路18号无锡软件园天秤座104座",
+        "营业时间:10:00-19:30"
+      ]
+    },
+    { 
+      "id": 6,
+      "name": "五口灶 (新安店)",
+      "description": "蜂鸟专送",
+      "deliveryTime": 38,
+      "score": 4.6,
+      "serviceScore": 4.5,
+      "foodScore": 4.6,
+      "rankRate": 67.3,
+      "minPrice": 20,
+      "deliveryPrice": 1,
+      "ratingCount": 674,
+      "sellCount": 1162,
+      "bulletin": "不烧饭，就到五口灶，专注民间小吃十七年！五口灶餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/06/avatar.png",
+      "pics": [
+        "http:/static/imgs/06/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新区新安南湖园路1号",
+        "营业时间:10:00-21:30"
+      ]
+    },
+    { 
+      "id": 7,
+      "name": "意字号饭团",
+      "description": "蜂鸟专送",
+      "deliveryTime": 39,
+      "score": 4.7,
+      "serviceScore": 4.9,
+      "foodScore": 4.6,
+      "rankRate": 96.1,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 48,
+      "sellCount": 98,
+      "bulletin": "全部使用麦德龙，永辉购买的生鲜食材及调料，不添加任何添加剂。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/07/avatar.jpg",
+      "pics": [
+        "/static/imgs/07/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新安区新安龙湖艳澜艺墅587-108",
+        "营业时间:09:30-19:40"
+      ]
+    },
+    { 
+      "id": 8,
+      "name": "大众饭店 (新安店)",
+      "description": "蜂鸟专送",
+      "deliveryTime": 41,
+      "score": 4.6,
+      "serviceScore": 4.6,
+      "foodScore": 4.5,
+      "rankRate": 70.2,
+      "minPrice": 20,
+      "deliveryPrice": 2.5,
+      "ratingCount": 208,
+      "sellCount": 309,
+      "bulletin": "因为专业，所以做的更好。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/08/avatar.jpg",
+      "pics": [
+        "/static/imgs/08/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新区新安新湖路36号",
+        "营业时间:09:00-14:40 / 16:20-01:00"
+      ]
+    },
+    { 
+      "id": 9,
+      "name": "好再来饭店",
+      "description": "蜂鸟专送",
+      "deliveryTime": 36,
+      "score": 4.6,
+      "serviceScore": 4.6,
+      "foodScore": 4.6,
+      "rankRate": 81.1,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 346,
+      "sellCount": 492,
+      "bulletin": "各位小主，本店优先配送饿了么，本店诚信经营，薄利多销，同等的菜品比价格，同等的菜品比口味，请各位亲们在用餐高峰期，提前下单，谢谢合作！如有不满意的或不合胃口的，请电话和本店联系，店家会给您合理的解释。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/09/avatar.jpg",
+      "pics": [
+        "/static/imgs/09/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "江苏省无锡市新吴区新安街道新湖路41号",
+        "营业时间:09:10-01:00"
+      ]
     }
-  ],
-  "avatar": "http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg",
-  "pics": [
-    "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
-    "营业时间:10:00-20:30"
   ]
 }
-{ 
-  "id": 1,
-  "name": "一粥七天",
-  "description": "蜂鸟专送",
-  "deliveryTime": 30,
-  "score": 4.6,
-  "serviceScore": 4.5,
-  "foodScore": 4.4,
-  "rankRate": 72.4,
-  "minPrice": 15,
-  "deliveryPrice": 3,
-  "ratingCount": 147,
-  "sellCount": 906,
-  "bulletin": "亲你还在为吃不到可口的早餐发愁吗？一粥七天现在每天早上七点开始营业啦",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满30减10"
+{
+  "hasMore": true,
+  "page": 1,
+  "data": [
+    { 
+      "id": 0,
+      "name": "粥品香坊（回龙观）",
+      "description": "蜂鸟专送",
+      "deliveryTime": 38,
+      "score": 4.2,
+      "serviceScore": 4.1,
+      "foodScore": 4.3,
+      "rankRate": 69.2,
+      "minPrice": 20,
+      "deliveryPrice": 4,
+      "ratingCount": 24,
+      "sellCount": 90,
+      "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满28减5"
+        },
+        {
+          "type": 1,
+          "description": "VC无限橙果汁全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg",
+      "pics": [
+        "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
+        "营业时间:10:00-20:30"
+      ]
     },
-    {
-      "type": 1,
-      "description": "VC无限橙果汁全场8折"
+    { 
+      "id": 1,
+      "name": "一粥七天",
+      "description": "蜂鸟专送",
+      "deliveryTime": 30,
+      "score": 4.6,
+      "serviceScore": 4.5,
+      "foodScore": 4.4,
+      "rankRate": 72.4,
+      "minPrice": 15,
+      "deliveryPrice": 3,
+      "ratingCount": 147,
+      "sellCount": 906,
+      "bulletin": "亲你还在为吃不到可口的早餐发愁吗？一粥七天现在每天早上七点开始营业啦",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满30减10"
+        },
+        {
+          "type": 1,
+          "description": "VC无限橙果汁全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/01/avatar.png",
+      "pics": [
+        "/static/imgs/01/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市华庄街道怡园路4-5号",
+        "营业时间:07:00-24:00"
+      ]
     },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
+    { 
+      "id": 2,
+      "name": "满朝佰家粥铺",
+      "description": "蜂鸟专送",
+      "deliveryTime": 35,
+      "score": 4.7,
+      "serviceScore": 4.7,
+      "foodScore": 4.7,
+      "rankRate": 78.2,
+      "minPrice": 15,
+      "deliveryPrice": 2.5,
+      "ratingCount": 220,
+      "sellCount": 361,
+      "bulletin": "本店采用大米，香米，糯米，精心熬制一小时多，每一款都是现做，保证了他的口感，也增加了他的香味",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满30减10"
+        },
+        {
+          "type": 1,
+          "description": "各色美味奶茶全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/02/avatar.jpg",
+      "pics": [
+        "/static/imgs/02/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新吴区新安中心街36号",
+        "营业时间:07:00-20:50"
+      ]
     },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
+    { 
+      "id": 3,
+      "name": "正德兴",
+      "description": "蜂鸟专送",
+      "deliveryTime": 48,
+      "score": 4.8,
+      "serviceScore": 4.9,
+      "foodScore": 4.8,
+      "rankRate": 91.5,
+      "minPrice": 20,
+      "deliveryPrice": 10.5,
+      "ratingCount": 50,
+      "sellCount": 63,
+      "bulletin": "无锡名点•百年传承•古法手作”正德兴品牌连锁欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色套餐全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/03/avatar.jpg",
+      "pics": [
+        "/static/imgs/03/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡新吴区新港公寓11-29门面房",
+        "营业时间:10:00-13:55 / 16:30-20:00"
+      ]
     },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
+    { 
+      "id": 4,
+      "name": "爬山虎主题餐厅",
+      "description": "蜂鸟专送",
+      "deliveryTime": 23,
+      "score": 4.4,
+      "serviceScore": 4.4,
+      "foodScore": 4.3,
+      "rankRate": 59.1,
+      "minPrice": 20,
+      "deliveryPrice": 2.5,
+      "ratingCount": 239,
+      "sellCount": 819,
+      "bulletin": "爱健康、爱运动、爱美食——这就是爬山虎 爬行在味蕾的好时光！爬山虎主题餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色无锡名点全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/04/avatar.png",
+      "pics": [
+        "/static/imgs/04/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市和风路19号无锡协信中心2号楼5-6号、5-7号单元",
+        "营业时间:10:00-14:30 / 16:30-19:00"
+      ]
+    },
+    { 
+      "id": 5,
+      "name": "谷香谷道",
+      "description": "蜂鸟专送",
+      "deliveryTime": 30,
+      "score": 4.7,
+      "serviceScore": 4.8,
+      "foodScore": 4.6,
+      "rankRate": 67.3,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 84,
+      "sellCount": 217,
+      "bulletin": "谷稻谷道所有米饭均为五常大米瓦锅单份现煲！谷香谷道餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色粥品全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/05/avatar.png",
+      "pics": [
+        "/static/imgs/05/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新吴区震泽路18号无锡软件园天秤座104座",
+        "营业时间:10:00-19:30"
+      ]
+    },
+    { 
+      "id": 6,
+      "name": "五口灶 (新安店)",
+      "description": "蜂鸟专送",
+      "deliveryTime": 38,
+      "score": 4.6,
+      "serviceScore": 4.5,
+      "foodScore": 4.6,
+      "rankRate": 67.3,
+      "minPrice": 20,
+      "deliveryPrice": 1,
+      "ratingCount": 674,
+      "sellCount": 1162,
+      "bulletin": "不烧饭，就到五口灶，专注民间小吃十七年！五口灶餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/06/avatar.png",
+      "pics": [
+        "http:/static/imgs/06/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新区新安南湖园路1号",
+        "营业时间:10:00-21:30"
+      ]
+    },
+    { 
+      "id": 7,
+      "name": "意字号饭团",
+      "description": "蜂鸟专送",
+      "deliveryTime": 39,
+      "score": 4.7,
+      "serviceScore": 4.9,
+      "foodScore": 4.6,
+      "rankRate": 96.1,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 48,
+      "sellCount": 98,
+      "bulletin": "全部使用麦德龙，永辉购买的生鲜食材及调料，不添加任何添加剂。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/07/avatar.jpg",
+      "pics": [
+        "/static/imgs/07/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新安区新安龙湖艳澜艺墅587-108",
+        "营业时间:09:30-19:40"
+      ]
+    },
+    { 
+      "id": 8,
+      "name": "大众饭店 (新安店)",
+      "description": "蜂鸟专送",
+      "deliveryTime": 41,
+      "score": 4.6,
+      "serviceScore": 4.6,
+      "foodScore": 4.5,
+      "rankRate": 70.2,
+      "minPrice": 20,
+      "deliveryPrice": 2.5,
+      "ratingCount": 208,
+      "sellCount": 309,
+      "bulletin": "因为专业，所以做的更好。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/08/avatar.jpg",
+      "pics": [
+        "/static/imgs/08/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新区新安新湖路36号",
+        "营业时间:09:00-14:40 / 16:20-01:00"
+      ]
+    },
+    { 
+      "id": 9,
+      "name": "好再来饭店",
+      "description": "蜂鸟专送",
+      "deliveryTime": 36,
+      "score": 4.6,
+      "serviceScore": 4.6,
+      "foodScore": 4.6,
+      "rankRate": 81.1,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 346,
+      "sellCount": 492,
+      "bulletin": "各位小主，本店优先配送饿了么，本店诚信经营，薄利多销，同等的菜品比价格，同等的菜品比口味，请各位亲们在用餐高峰期，提前下单，谢谢合作！如有不满意的或不合胃口的，请电话和本店联系，店家会给您合理的解释。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/09/avatar.jpg",
+      "pics": [
+        "/static/imgs/09/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "江苏省无锡市新吴区新安街道新湖路41号",
+        "营业时间:09:10-01:00"
+      ]
     }
-  ],
-  "avatar": "/static/imgs/01/avatar.png",
-  "pics": [
-    "/static/imgs/01/avatar.png",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡市华庄街道怡园路4-5号",
-    "营业时间:07:00-24:00"
   ]
 }
-{ 
-  "id": 2,
-  "name": "满朝佰家粥铺",
-  "description": "蜂鸟专送",
-  "deliveryTime": 35,
-  "score": 4.7,
-  "serviceScore": 4.7,
-  "foodScore": 4.7,
-  "rankRate": 78.2,
-  "minPrice": 15,
-  "deliveryPrice": 2.5,
-  "ratingCount": 220,
-  "sellCount": 361,
-  "bulletin": "本店采用大米，香米，糯米，精心熬制一小时多，每一款都是现做，保证了他的口感，也增加了他的香味",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满30减10"
+{
+  "hasMore": false,
+  "page": 2,
+  "data": [
+    { 
+      "id": 0,
+      "name": "粥品香坊（回龙观）",
+      "description": "蜂鸟专送",
+      "deliveryTime": 38,
+      "score": 4.2,
+      "serviceScore": 4.1,
+      "foodScore": 4.3,
+      "rankRate": 69.2,
+      "minPrice": 20,
+      "deliveryPrice": 4,
+      "ratingCount": 24,
+      "sellCount": 90,
+      "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满28减5"
+        },
+        {
+          "type": 1,
+          "description": "VC无限橙果汁全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg",
+      "pics": [
+        "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
+        "营业时间:10:00-20:30"
+      ]
     },
-    {
-      "type": 1,
-      "description": "各色美味奶茶全场8折"
+    { 
+      "id": 1,
+      "name": "一粥七天",
+      "description": "蜂鸟专送",
+      "deliveryTime": 30,
+      "score": 4.6,
+      "serviceScore": 4.5,
+      "foodScore": 4.4,
+      "rankRate": 72.4,
+      "minPrice": 15,
+      "deliveryPrice": 3,
+      "ratingCount": 147,
+      "sellCount": 906,
+      "bulletin": "亲你还在为吃不到可口的早餐发愁吗？一粥七天现在每天早上七点开始营业啦",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满30减10"
+        },
+        {
+          "type": 1,
+          "description": "VC无限橙果汁全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/01/avatar.png",
+      "pics": [
+        "/static/imgs/01/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市华庄街道怡园路4-5号",
+        "营业时间:07:00-24:00"
+      ]
     },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
+    { 
+      "id": 2,
+      "name": "满朝佰家粥铺",
+      "description": "蜂鸟专送",
+      "deliveryTime": 35,
+      "score": 4.7,
+      "serviceScore": 4.7,
+      "foodScore": 4.7,
+      "rankRate": 78.2,
+      "minPrice": 15,
+      "deliveryPrice": 2.5,
+      "ratingCount": 220,
+      "sellCount": 361,
+      "bulletin": "本店采用大米，香米，糯米，精心熬制一小时多，每一款都是现做，保证了他的口感，也增加了他的香味",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满30减10"
+        },
+        {
+          "type": 1,
+          "description": "各色美味奶茶全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/02/avatar.jpg",
+      "pics": [
+        "/static/imgs/02/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新吴区新安中心街36号",
+        "营业时间:07:00-20:50"
+      ]
     },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
+    { 
+      "id": 3,
+      "name": "正德兴",
+      "description": "蜂鸟专送",
+      "deliveryTime": 48,
+      "score": 4.8,
+      "serviceScore": 4.9,
+      "foodScore": 4.8,
+      "rankRate": 91.5,
+      "minPrice": 20,
+      "deliveryPrice": 10.5,
+      "ratingCount": 50,
+      "sellCount": 63,
+      "bulletin": "无锡名点•百年传承•古法手作”正德兴品牌连锁欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色套餐全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/03/avatar.jpg",
+      "pics": [
+        "/static/imgs/03/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡新吴区新港公寓11-29门面房",
+        "营业时间:10:00-13:55 / 16:30-20:00"
+      ]
     },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
+    { 
+      "id": 4,
+      "name": "爬山虎主题餐厅",
+      "description": "蜂鸟专送",
+      "deliveryTime": 23,
+      "score": 4.4,
+      "serviceScore": 4.4,
+      "foodScore": 4.3,
+      "rankRate": 59.1,
+      "minPrice": 20,
+      "deliveryPrice": 2.5,
+      "ratingCount": 239,
+      "sellCount": 819,
+      "bulletin": "爱健康、爱运动、爱美食——这就是爬山虎 爬行在味蕾的好时光！爬山虎主题餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色无锡名点全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/04/avatar.png",
+      "pics": [
+        "/static/imgs/04/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市和风路19号无锡协信中心2号楼5-6号、5-7号单元",
+        "营业时间:10:00-14:30 / 16:30-19:00"
+      ]
+    },
+    { 
+      "id": 5,
+      "name": "谷香谷道",
+      "description": "蜂鸟专送",
+      "deliveryTime": 30,
+      "score": 4.7,
+      "serviceScore": 4.8,
+      "foodScore": 4.6,
+      "rankRate": 67.3,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 84,
+      "sellCount": 217,
+      "bulletin": "谷稻谷道所有米饭均为五常大米瓦锅单份现煲！谷香谷道餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色粥品全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/05/avatar.png",
+      "pics": [
+        "/static/imgs/05/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新吴区震泽路18号无锡软件园天秤座104座",
+        "营业时间:10:00-19:30"
+      ]
+    },
+    { 
+      "id": 6,
+      "name": "五口灶 (新安店)",
+      "description": "蜂鸟专送",
+      "deliveryTime": 38,
+      "score": 4.6,
+      "serviceScore": 4.5,
+      "foodScore": 4.6,
+      "rankRate": 67.3,
+      "minPrice": 20,
+      "deliveryPrice": 1,
+      "ratingCount": 674,
+      "sellCount": 1162,
+      "bulletin": "不烧饭，就到五口灶，专注民间小吃十七年！五口灶餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/06/avatar.png",
+      "pics": [
+        "http:/static/imgs/06/avatar.png",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新区新安南湖园路1号",
+        "营业时间:10:00-21:30"
+      ]
+    },
+    { 
+      "id": 7,
+      "name": "意字号饭团",
+      "description": "蜂鸟专送",
+      "deliveryTime": 39,
+      "score": 4.7,
+      "serviceScore": 4.9,
+      "foodScore": 4.6,
+      "rankRate": 96.1,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 48,
+      "sellCount": 98,
+      "bulletin": "全部使用麦德龙，永辉购买的生鲜食材及调料，不添加任何添加剂。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/07/avatar.jpg",
+      "pics": [
+        "/static/imgs/07/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新安区新安龙湖艳澜艺墅587-108",
+        "营业时间:09:30-19:40"
+      ]
+    },
+    { 
+      "id": 8,
+      "name": "大众饭店 (新安店)",
+      "description": "蜂鸟专送",
+      "deliveryTime": 41,
+      "score": 4.6,
+      "serviceScore": 4.6,
+      "foodScore": 4.5,
+      "rankRate": 70.2,
+      "minPrice": 20,
+      "deliveryPrice": 2.5,
+      "ratingCount": 208,
+      "sellCount": 309,
+      "bulletin": "因为专业，所以做的更好。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/08/avatar.jpg",
+      "pics": [
+        "/static/imgs/08/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "无锡市新区新安新湖路36号",
+        "营业时间:09:00-14:40 / 16:20-01:00"
+      ]
+    },
+    { 
+      "id": 9,
+      "name": "好再来饭店",
+      "description": "蜂鸟专送",
+      "deliveryTime": 36,
+      "score": 4.6,
+      "serviceScore": 4.6,
+      "foodScore": 4.6,
+      "rankRate": 81.1,
+      "minPrice": 20,
+      "deliveryPrice": 1.5,
+      "ratingCount": 346,
+      "sellCount": 492,
+      "bulletin": "各位小主，本店优先配送饿了么，本店诚信经营，薄利多销，同等的菜品比价格，同等的菜品比口味，请各位亲们在用餐高峰期，提前下单，谢谢合作！如有不满意的或不合胃口的，请电话和本店联系，店家会给您合理的解释。",
+      "supports": [
+        {
+          "type": 0,
+          "description": "在线支付满25减10"
+        },
+        {
+          "type": 1,
+          "description": "各色小吃全场8折"
+        },
+        {
+          "type": 2,
+          "description": "单人精彩套餐"
+        },
+        {
+          "type": 3,
+          "description": "该商家支持发票,请下单写好发票抬头"
+        },
+        {
+          "type": 4,
+          "description": "已加入“外卖保”计划,食品安全保障"
+        }
+      ],
+      "avatar": "/static/imgs/09/avatar.jpg",
+      "pics": [
+        "/static/imgs/09/avatar.jpg",
+        "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+        "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+      ],
+      "infos": [
+        "该商家支持发票,请下单写好发票抬头",
+        "品类:其他菜系,包子粥店",
+        "江苏省无锡市新吴区新安街道新湖路41号",
+        "营业时间:09:10-01:00"
+      ]
     }
-  ],
-  "avatar": "/static/imgs/02/avatar.jpg",
-  "pics": [
-    "/static/imgs/02/avatar.jpg",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡市新吴区新安中心街36号",
-    "营业时间:07:00-20:50"
-  ]
-}
-{ 
-  "id": 3,
-  "name": "正德兴",
-  "description": "蜂鸟专送",
-  "deliveryTime": 48,
-  "score": 4.8,
-  "serviceScore": 4.9,
-  "foodScore": 4.8,
-  "rankRate": 91.5,
-  "minPrice": 20,
-  "deliveryPrice": 10.5,
-  "ratingCount": 50,
-  "sellCount": 63,
-  "bulletin": "无锡名点•百年传承•古法手作”正德兴品牌连锁欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满25减10"
-    },
-    {
-      "type": 1,
-      "description": "各色套餐全场8折"
-    },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
-    },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
-    },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
-    }
-  ],
-  "avatar": "/static/imgs/03/avatar.jpg",
-  "pics": [
-    "/static/imgs/03/avatar.jpg",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡新吴区新港公寓11-29门面房",
-    "营业时间:10:00-13:55 / 16:30-20:00"
-  ]
-}
-{ 
-  "id": 4,
-  "name": "爬山虎主题餐厅",
-  "description": "蜂鸟专送",
-  "deliveryTime": 23,
-  "score": 4.4,
-  "serviceScore": 4.4,
-  "foodScore": 4.3,
-  "rankRate": 59.1,
-  "minPrice": 20,
-  "deliveryPrice": 2.5,
-  "ratingCount": 239,
-  "sellCount": 819,
-  "bulletin": "爱健康、爱运动、爱美食——这就是爬山虎 爬行在味蕾的好时光！爬山虎主题餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满25减10"
-    },
-    {
-      "type": 1,
-      "description": "各色无锡名点全场8折"
-    },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
-    },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
-    },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
-    }
-  ],
-  "avatar": "/static/imgs/04/avatar.png",
-  "pics": [
-    "/static/imgs/04/avatar.png",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡市和风路19号无锡协信中心2号楼5-6号、5-7号单元",
-    "营业时间:10:00-14:30 / 16:30-19:00"
-  ]
-}
-{ 
-  "id": 5,
-  "name": "谷香谷道",
-  "description": "蜂鸟专送",
-  "deliveryTime": 30,
-  "score": 4.7,
-  "serviceScore": 4.8,
-  "foodScore": 4.6,
-  "rankRate": 67.3,
-  "minPrice": 20,
-  "deliveryPrice": 1.5,
-  "ratingCount": 84,
-  "sellCount": 217,
-  "bulletin": "谷稻谷道所有米饭均为五常大米瓦锅单份现煲！谷香谷道餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满25减10"
-    },
-    {
-      "type": 1,
-      "description": "各色粥品全场8折"
-    },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
-    },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
-    },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
-    }
-  ],
-  "avatar": "/static/imgs/05/avatar.png",
-  "pics": [
-    "/static/imgs/05/avatar.png",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡市新吴区震泽路18号无锡软件园天秤座104座",
-    "营业时间:10:00-19:30"
-  ]
-}
-{ 
-  "id": 6,
-  "name": "五口灶 (新安店)",
-  "description": "蜂鸟专送",
-  "deliveryTime": 38,
-  "score": 4.6,
-  "serviceScore": 4.5,
-  "foodScore": 4.6,
-  "rankRate": 67.3,
-  "minPrice": 20,
-  "deliveryPrice": 1,
-  "ratingCount": 674,
-  "sellCount": 1162,
-  "bulletin": "不烧饭，就到五口灶，专注民间小吃十七年！五口灶餐厅欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新品多多，美味多多！",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满25减10"
-    },
-    {
-      "type": 1,
-      "description": "各色小吃全场8折"
-    },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
-    },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
-    },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
-    }
-  ],
-  "avatar": "/static/imgs/06/avatar.png",
-  "pics": [
-    "http:/static/imgs/06/avatar.png",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡市新区新安南湖园路1号",
-    "营业时间:10:00-21:30"
-  ]
-}
-{ 
-  "id": 7,
-  "name": "意字号饭团",
-  "description": "蜂鸟专送",
-  "deliveryTime": 39,
-  "score": 4.7,
-  "serviceScore": 4.9,
-  "foodScore": 4.6,
-  "rankRate": 96.1,
-  "minPrice": 20,
-  "deliveryPrice": 1.5,
-  "ratingCount": 48,
-  "sellCount": 98,
-  "bulletin": "全部使用麦德龙，永辉购买的生鲜食材及调料，不添加任何添加剂。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满25减10"
-    },
-    {
-      "type": 1,
-      "description": "各色小吃全场8折"
-    },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
-    },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
-    },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
-    }
-  ],
-  "avatar": "/static/imgs/07/avatar.jpg",
-  "pics": [
-    "/static/imgs/07/avatar.jpg",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡市新安区新安龙湖艳澜艺墅587-108",
-    "营业时间:09:30-19:40"
-  ]
-}
-{ 
-  "id": 8,
-  "name": "大众饭店 (新安店)",
-  "description": "蜂鸟专送",
-  "deliveryTime": 41,
-  "score": 4.6,
-  "serviceScore": 4.6,
-  "foodScore": 4.5,
-  "rankRate": 70.2,
-  "minPrice": 20,
-  "deliveryPrice": 2.5,
-  "ratingCount": 208,
-  "sellCount": 309,
-  "bulletin": "因为专业，所以做的更好。欢迎广大企业朋友、师生朋友前来品尝！我们秉承品质、特色的理念为大家服务！新鲜出炉烤肉锅底，味道醇美，营养丰富，请新老朋友品尝。",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满25减10"
-    },
-    {
-      "type": 1,
-      "description": "各色小吃全场8折"
-    },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
-    },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
-    },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
-    }
-  ],
-  "avatar": "/static/imgs/08/avatar.jpg",
-  "pics": [
-    "/static/imgs/08/avatar.jpg",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "无锡市新区新安新湖路36号",
-    "营业时间:09:00-14:40 / 16:20-01:00"
-  ]
-}
-{ 
-  "id": 9,
-  "name": "好再来饭店",
-  "description": "蜂鸟专送",
-  "deliveryTime": 36,
-  "score": 4.6,
-  "serviceScore": 4.6,
-  "foodScore": 4.6,
-  "rankRate": 81.1,
-  "minPrice": 20,
-  "deliveryPrice": 1.5,
-  "ratingCount": 346,
-  "sellCount": 492,
-  "bulletin": "各位小主，本店优先配送饿了么，本店诚信经营，薄利多销，同等的菜品比价格，同等的菜品比口味，请各位亲们在用餐高峰期，提前下单，谢谢合作！如有不满意的或不合胃口的，请电话和本店联系，店家会给您合理的解释。",
-  "supports": [
-    {
-      "type": 0,
-      "description": "在线支付满25减10"
-    },
-    {
-      "type": 1,
-      "description": "各色小吃全场8折"
-    },
-    {
-      "type": 2,
-      "description": "单人精彩套餐"
-    },
-    {
-      "type": 3,
-      "description": "该商家支持发票,请下单写好发票抬头"
-    },
-    {
-      "type": 4,
-      "description": "已加入“外卖保”计划,食品安全保障"
-    }
-  ],
-  "avatar": "/static/imgs/09/avatar.jpg",
-  "pics": [
-    "/static/imgs/09/avatar.jpg",
-    "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
-    "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
-  ],
-  "infos": [
-    "该商家支持发票,请下单写好发票抬头",
-    "品类:其他菜系,包子粥店",
-    "江苏省无锡市新吴区新安街道新湖路41号",
-    "营业时间:09:10-01:00"
   ]
 }

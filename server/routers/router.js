@@ -5,18 +5,6 @@ var sellData = null
 var goodsData = null
 var ratingData = null
 
-exports.showSeller = function(req,res,next){
-	let id = req.query.id
-	Seller.findSeller(id,function(err,data){
-		 sellerData = data
-		 // console.log(sellerData, 1)
-		 res.json({
-		 	errno:0,
-		 	data:sellerData
-		 })
-	})
-}
-
 exports.showAllGoods = function(req,res,next){
 	let id = req.query.id
 	Goods.findAllGoods(id, function(err,data){
@@ -36,10 +24,23 @@ exports.showRatings = function(req,res,next){
 		 })
 	})
 }
+
+exports.showSeller = function(req,res,next){
+	let id = req.query.id
+	Seller.findSeller(id,function(err,data){
+		 sellerData = data[0].data
+		 res.json({
+		 	errno:0,
+		 	data:sellerData
+		 })
+	})
+}
+
+
 exports.searchSeller = function(req, res, next){
 	let name = req.query.seller
 	Seller.searchSellers(name, function(err, data){
-		let arr = data
+		let arr = [data[0].data]
 		if (arr.length > 0){
 			res.json({
 				errno: 0,
@@ -53,12 +54,15 @@ exports.searchSeller = function(req, res, next){
 	})
 }
 exports.findAllSellers = function(req, res, next) {
-	Seller.findAllSeller(function(err, data) {
-		let arr = data
+	let page = parseInt(req.query.page)
+	Seller.findAllSeller(page, function(err, data) {
+		let arr = data[0].data
+		let hasMore = data[0].hasMore
 		if (arr.length > 0){
 			res.json({
 				errno: 0,
-				data: arr
+				data: arr,
+				hasMore
 		  })
 		} else {
 			res.json({
